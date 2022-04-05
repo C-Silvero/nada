@@ -84,7 +84,15 @@ section {
     flex-wrap: wrap;
 }
 
+.imagen-uno:hover {
+    transition: all 1.5s;
+    transform: scale(1.3);
+}
 
+.imagen-dos:hover {
+    transition: all 1.5s;
+    transform: scale(1.3);
+}
 
 /*Fin productos y presentacion*/
 
