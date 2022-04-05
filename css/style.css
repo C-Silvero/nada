@@ -1,0 +1,174 @@
+/* Este es un comentario */
+
+*{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.972);
+    font-family: 'Comfortaa', cursive;
+    
+}
+/*TITULO*/
+h1 {
+    color: rgb(241, 4, 4);
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Fin titulo*/
+
+/*SHOP*/
+h2 {
+    color: rgb(238, 113, 113);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*F.SHOP*/
+
+/*Header*/
+.header-container {
+    font-size: 25px;
+    font-weight: bold; 
+    padding: 20px 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 80%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio:hover, 
+#shop:hover,
+#clientes:hover,
+#nosotros:hover,
+#faq:hover  {
+    animation: changeColor 1.2s infinite;
+}
+
+@keyframes changeColor {
+    100% {
+        color: rgb(255, 1, 1);
+        background-color: white;
+    }
+    
+}
+
+ /*Fin Header*/
+
+/*Productos y presentacion*/
+section {
+    margin-top: 130px;
+}
+
+.section-container {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    margin-bottom: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagen-uno:hover {
+    transition: all 1.5s;
+    transform: scale(1.3);
+}
+
+.imagen-dos:hover {
+    transition: all 1.5s;
+    transform: scale(1.3);
+}
+
+/*Fin productos y presentacion*/
+
+
+p {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.clientes {
+    margin: 20px 0px 60px ;
+    text-decoration:solid;
+}
+
+#somos {
+    margin: 170px 0px 80px;
+    font-size: 24px;
+}
+
+#envios {
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+#envios2 {
+    color: rgb(238, 113, 113);
+    text-decoration:underline ;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.preg {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(241, 4, 4);
+    padding: 0;
+    display: flex;
+}
+
+footer-redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    font-weight: bold; 
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.playlist {
+    text-align: center;
+    border-top: solid 5px yellow;
+    border-bottom: solid 7px yellow;
+}
+
+iframe {
+    display: flex;
+    flex: wrap;
+    opacity: 30%;
+}
+
+@media screen and (max-width: 897px) {
+    *{
+        font-size: 12px;
+    }
+
+}
